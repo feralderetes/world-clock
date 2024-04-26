@@ -11,17 +11,26 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="city">
+      <select id="city">
         <option value="">Select a city</option>
-        <option value="current">My current location</option>
-        <option value="Europe/London">London</option>
-        <option value="America/New_York">New York</option>
-        <option value="Pacific/Auckland">Auckland</option>
+        <option value="local">📍 Local Time</option>
+        <option value="Pacific/Auckland">🇳🇿 Auckland</option>
+        <option value="Africa/Johannesburg">🇿🇦 Johannesburg</option>
+        <option value="Europe/London">🇬🇧 London</option>
+        <option value="Europe/Moscow">🇷🇺 Moscow</option>
+        <option value="America/New_York">🇺🇸 New York</option>
       </select>
       <div id="cities-list">
-        <div class="city" id="los-angeles">
+        <div class="city" id="buenos-aires">
           <div>
-            <h2>Los Angeles 🇺🇸</h2>
+            <h2>Buenos Aires 🇦🇷</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="amsterdam">
+          <div>
+            <h2>Amsterdam 🇳🇱</h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
@@ -36,13 +45,6 @@
         <div class="city" id="tokyo">
           <div>
             <h2>Tokyo 🇯🇵</h2>
-            <div class="date"></div>
-          </div>
-          <div class="time"></div>
-        </div>
-        <div class="city" id="paris">
-          <div>
-            <h2>Paris 🇫🇷</h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
