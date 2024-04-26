@@ -1,15 +1,50 @@
 function countryFlag(timeZone) {
   switch (timeZone) {
+    case "Atlantic/Cape_Verde":
+      return "🇨🇻";
+    case "Atlantic/South_Georgia":
     case "Europe/London":
       return "🇬🇧";
-    case "America/New_York":
+    case "America/Sao_Paulo":
+      return "🇧🇷";
+    case "America/Havana":
+      return "🇨🇺";
+    case "America/Lima":
+      return "🇵🇪";
+    case "America/Mexico_City":
+      return "🇲🇽";
+    case "America/Vancouver":
+      return "🇨🇦";
+    case "America/Anchorage":
+    case "America/Adak":
+    case "Pacific/Honolulu":
       return "🇺🇸";
-    case "Pacific/Auckland":
-      return "🇳🇿";
-    case "Africa/Johannesburg":
-      return "🇿🇦";
+    case "Pacific/Apia":
+      return "🇼🇸";
+    case "Atlantic/Reykjavik":
+      return "🇮🇸";
+    case "Europe/Berlin":
+      return "🇩🇪";
     case "Europe/Moscow":
       return "🇷🇺";
+    case "Asia/Dubai":
+      return "🇦🇪";
+    case "Indian/Maldives":
+      return "🇲🇻";
+    case "Asia/Dhaka":
+      return "🇧🇩";
+    case "Asia/Bangkok":
+      return "🇹🇭";
+    case "Asia/Singapore":
+      return "🇸🇬";
+    case "Asia/Seoul":
+      return "🇰🇷";
+    case "Australia/Canberra":
+      return "🇦🇺";
+    case "Pacific/Pohnpei":
+      return "🇫🇲";
+    case "Pacific/Auckland":
+      return "🇳🇿";
     default:
       return "📍";
   }

@@ -9,17 +9,58 @@
     <title>World Clock | Fer Alderetes</title>
   </head>
   <body>
-    <div class="container">
-      <h1>World Clock</h1>
-      <select id="city">
-        <option value="">Select a city</option>
-        <option value="local">📍 Local Time</option>
-        <option value="Pacific/Auckland">🇳🇿 Auckland</option>
-        <option value="Africa/Johannesburg">🇿🇦 Johannesburg</option>
-        <option value="Europe/London">🇬🇧 London</option>
-        <option value="Europe/Moscow">🇷🇺 Moscow</option>
-        <option value="America/New_York">🇺🇸 New York</option>
-      </select>
+    <main>
+      <div class="select-box">
+        <h1>World Clock</h1>
+        <select id="city">
+          <option value="">Select a city</option>
+          <option value="local">📍 Local Time</option>
+          <option value="Atlantic/Cape_Verde">
+            🇨🇻 Praia, Cabo Verde (UTC-1)
+          </option>
+          <option value="Atlantic/South_Georgia">
+            🇬🇧 South Georgia/Sandwich Is., UK (UTC-2)
+          </option>
+          <option value="America/Sao_Paulo">
+            🇧🇷 Sao Paulo, Brazil (UTC-3)
+          </option>
+          <option value="America/Havana">🇨🇺 Havana, Cuba (UTC-4)</option>
+          <option value="America/Lima">🇵🇪 Lima, Peru (UTC-5)</option>
+          <option value="America/Mexico_City">
+            🇲🇽 Mexico City, Mexico (UTC-6)
+          </option>
+          <option value="America/Vancouver">
+            🇨🇦 Vancouver, Canada (UTC-7)
+          </option>
+          <option value="America/Anchorage">🇺🇸 Anchorage, USA (UTC-8)</option>
+          <option value="America/Adak">🇺🇸 Adak, USA (UTC-9)</option>
+          <option value="Pacific/Honolulu">🇺🇸 Honolulu, USA (UTC-10)</option>
+          <option value="Pacific/Apia">🇼🇸 Apia, Samoa (UTC-11)</option>
+          <option value="Atlantic/Reykjavik">
+            🇮🇸 Reykjavik, Iceland (UTC)
+          </option>
+          <option value="Europe/London">🇬🇧 London, UK (UTC+1)</option>
+          <option value="Europe/Berlin">🇩🇪 Berlin, Germany (UTC+2)</option>
+          <option value="Europe/Moscow">🇷🇺 Moscow, Russia (UTC+3)</option>
+          <option value="Asia/Dubai">
+            🇦🇪 Dubai, United Arab Emirates (UTC+4)
+          </option>
+          <option value="Indian/Maldives">🇲🇻 Male, Maldives (UTC+5)</option>
+          <option value="Asia/Dhaka">🇧🇩 Dhaka, Bangladesh (UTC+6)</option>
+          <option value="Asia/Bangkok">🇹🇭 Bangkok, Thailand (UTC+7)</option>
+          <option value="Asia/Singapore">🇸🇬 Singapore (UTC+8)</option>
+          <option value="Asia/Seoul">🇰🇷 Seoul, South Korea (UTC+9)</option>
+          <option value="Australia/Canberra">
+            🇦🇺 Canberra, Australia (UTC+10)
+          </option>
+          <option value="Pacific/Pohnpei">
+            🇫🇲 Pohnpei, Micronesia (UTC+11)
+          </option>
+          <option value="Pacific/Auckland">
+            🇳🇿 Auckland, New Zealand (UTC+12)
+          </option>
+        </select>
+      </div>
       <div id="cities-list">
         <div class="city" id="buenos-aires">
           <div>
@@ -50,7 +91,7 @@
           <div class="time"></div>
         </div>
       </div>
-    </div>
+    </main>
     <footer>
       This project was coded by <strong>Fer Alderetes</strong> and is open
       sourced on
