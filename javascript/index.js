@@ -64,7 +64,7 @@ function updateCityElement(city, timeZone) {
     let cityTime = moment().tz(timeZone);
     cityDateElement.innerHTML = cityTime.format("MMMM Do YYYY");
     cityTimeElement.innerHTML = `${cityTime.format(
-      `h:mm:[<span class="light">]ss[</span>] [<small>]A[</small>]`
+      `hh:mm:[<span class="light">]ss[</span>] [<small>]A[</small>]`
     )}`;
   }
 }
@@ -99,7 +99,6 @@ function updateCity(event) {
       "ss"
     )}</span> <small>${cityTime.format("A")}</small></div>
       </div>
-      <a href="/">All cities</a>
     `;
   }
   event.target.value = "";
