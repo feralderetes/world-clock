@@ -147,6 +147,10 @@ a:hover {
 }
 
 @media (max-width: 645px) {
+  main {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
   h2 {
     font-size: 16px;
   }
