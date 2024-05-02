@@ -152,7 +152,11 @@ a:hover {
   }
 
   select {
-    width: 82%;
+    width: 80%;
+  }
+
+  .city {
+    padding: 10px;
   }
 
   .date {
